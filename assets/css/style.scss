@@ -11,11 +11,11 @@ $color-light-blue: #3baaff;
 $color-dark-blue: #006abc;
 $color-blue-black: #091f2c;
 
-$page-gutter: 138px;
+$page-gutter: 80px;
 
 /* LAYOUT STYLES */
 body {
-  font-family: 'Segoe UI', Arial, sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   font-size: 18px;
   font-weight: 350;
   line-height: 1.5;
@@ -44,7 +44,8 @@ a:hover {
 }
 
 .header {
-  background: $color-blue-black;  
+  background: $color-blue-black;
+  height: 96px;
 }
 
 .header h1 {
@@ -57,7 +58,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0
+  padding: 20px 0;
 }
 
 .hero {
@@ -102,14 +103,13 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0
+  padding: 20px 0;
 }
 
 
 .button {
   display: inline-block;
-  height: 60px;
-  padding: 0 24px;
+  padding: 20px 24px;
   border-radius: 5px;
   text-decoration: none;
   font-weight: 600;
@@ -132,8 +132,9 @@ h1, h2, h3 {
 
 h1 {
   font-size: 48px;
-  font-weight: normal;
   line-height: 1.1;
+  font-weight: 350;
+
 }
 
 h2 {
@@ -143,7 +144,7 @@ h2 {
 
 h3 {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 ol, ul {
