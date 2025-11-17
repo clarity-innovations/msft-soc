@@ -26,14 +26,13 @@
     <img class="hero gutters" src="{{ "/source/i/hero.png" | relative_url }}" alt="">
 
     <main class="main gutters">
-
-      <section class="main-content" id="main-content">
-        {{ content }}
-      </section>
       <nav class="nav">
         <h3 class="toc-header">On this page</h3>
         {% include toc.html class="toc" html=content h_min=2 %}
       </nav>
+      <section class="main-content" id="main-content">
+        {{ content }}
+      </section>
     </main>
   </body>
 

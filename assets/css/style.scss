@@ -85,6 +85,7 @@ a:hover {
 .main-content {
   flex-shrink: 1;
   flex-grow: 0;
+  order: 1
 }
 
 .main-content > *:first-child {
@@ -96,6 +97,7 @@ a:hover {
   flex-grow: 0;
   width: 250px;
   padding-left: 40px;
+  order: 2
 }
 
 .toc, .toc ul {
