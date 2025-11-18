@@ -17,15 +17,15 @@
 
   <body class="flex-width">
     <header class="header flex-width">
-      <div class="header-inner gutters">
+      <div class="bar-inner page-margins">
         <p class="header-title">{{ page.title }}</p>
         <a class="repo-link" href="{{ site.github.repository_url }}">View project on GitHub</a>
       </div>
     </header>
 
-    <img class="hero gutters" src="{{ "/source/i/hero.png" | relative_url }}" alt="">
+    <img class="hero page-margins" src="{{ "/assets/images/SOC-hero-image@2x.jpg" | relative_url }}" alt="">
 
-    <main class="main gutters">
+    <main class="main page-margins">
       <nav class="nav">
         <h3 class="toc-header">On this page</h3>
         {% include toc.html class="toc" html=content h_min=2 %}
@@ -37,9 +37,9 @@
   </body>
 
   <footer class="footer flex-width">
-    <div class="footer-inner gutters">
-      <img class="ms-logo" alt="Microsoft" src="{{ "/assets/images/microsoft@2x.png" | relative_url }}" />
-      <span>© Microsoft 2025</span>
+    <div class="bar-inner page-margins">
+      <img class="ms-logo" alt="Microsoft Logo" src="{{ "/assets/images/microsoft@2x.png" | relative_url }}" />
+      <span class="copyright">© Microsoft 2025</span>
     </div>
   </footer>
 </html>
