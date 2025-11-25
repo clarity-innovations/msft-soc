@@ -13,23 +13,23 @@ Over four 45-minute, self-paced lessons, participants will explore SOC functions
 3. Scenarios and practical applications
 4. Best practices and career readiness
 
-[Preview lesson 1](https://microsoft.github.io/SOC/source/content/#){: .button}
+[Preview lesson 1](source/content/#){: .button}
 
 ### Implementation and facilitation guide
 As a key component of the Student SOC Toolkit, the facilitation guide offers detailed support for launching and managing a student Security Operations Center. It provides a roadmap for facilitators, covering critical planning strategies, best practices for implementation, and facilitation tips for the _Student SOC program foundations training_ course. Whether starting a new program or enhancing an existing one, this guide ensures facilitators are equipped with the tools to help students gain real-world cybersecurity skills and engage with operational security challenges effectively.
 
-[Download facilitation guide](https://microsoft.github.io/SOC/source/files/SOC-Students-Implementation-Guide_1July2025.pdf){: .button}
+[Download facilitation guide](source/files/SOC-Students-Implementation-Guide_1July2025.pdf){: .button}
 
 ### SCORM file
 Select the link below to download the course as a SCORM v1.2 Learning object to install and adapt in your own learning management system (LMS).
 
-[Download the SCORM zip file](https://microsoft.github.io/SOC/source/SCORM/student-soc-program-foundations-training-scorm12.zip){: .button}
+[Download the SCORM zip file](source/SCORM/student-soc-program-foundations-training-scorm12.zip){: .button}
 
 The course and its associated resources are packaged as a SCORM 1.2 learning object which is compatible with most LMS platforms. If you are unfamiliar with SCORM learning objects, take a look at [SCORM Explained 101](https://scorm.com/scorm-explained/one-minute-scorm-overview/) as well as these two videos that demonstrate [how to import and publish SCORM files](https://k12blueprint.com/sites/default/files/elearning/SCORM-1%20Import%20and%20Publish.mp4) and the second on [adapting and personalizing SCORM files](https://k12blueprint.com/sites/default/files/elearning/SCORM%202%20Personalize.mp4) in your LMS.
 
 ## Additional Resources
 Microsoft has developed a collection of supporting materials to asset you with your Student SOC planning and deployment.
-- [Student-lead Security Operations Center 1-pager](https://microsoft.github.io/SOC/source/files/Student-Led-Security-Operations-Centers.pdf)
-- [Introductory Email Template](https://microsoft.github.io/SOC/source/files/intro-email-template.docx)
-- [Onboarding Email Template](https://microsoft.github.io/SOC/source/files/onboarding-email-template.docx)
-- [Download a copy of the Journey Map](https://microsoft.github.io/SOC/source/files/Journey-Map_June2025.png)
+- [Student-lead Security Operations Center 1-pager](source/files/Student-Led-Security-Operations-Centers.pdf)
+- [Introductory Email Template](source/files/intro-email-template.docx)
+- [Onboarding Email Template](source/files/onboarding-email-template.docx)
+- [Download a copy of the Journey Map](source/files/Journey-Map_June2025.png)
