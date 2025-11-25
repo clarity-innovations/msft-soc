@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+
+{% seo %}
+
+    {% include head-custom.html %}
+  </head>
+
+  <body class="flex-width">
+    <header class="header flex-width">
+      <div class="bar-inner page-margins">
+        <p class="header-title">{{ page.title }}</p>
+        <a class="repo-link" href="{{ site.github.repository_url }}">View project on GitHub</a>
+      </div>
+    </header>
+
+    <img class="hero page-margins" src="{{ "/assets/images/SOC-hero-image@2x.jpg" | relative_url }}" alt="">
+
+    <main class="main page-margins">
+      <nav class="nav">
+        <h3 class="toc-header">On this page</h3>
+        {% include toc.html class="toc" html=content h_min=2 %}
+      </nav>
+      <section class="main-content" id="main-content">
+        {{ content }}
+      </section>
+    </main>
+  </body>
+
+  <footer class="footer flex-width">
+    <div class="bar-inner page-margins">
+      <img class="ms-logo" alt="Microsoft Logo" src="{{ "/assets/images/microsoft@2x.png" | relative_url }}" />
+      <span class="copyright">© Microsoft 2025</span>
+    </div>
+  </footer>
+</html>
