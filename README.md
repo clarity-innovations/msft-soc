@@ -18,7 +18,7 @@ Over four 45-minute, self-paced lessons, participants will explore SOC functions
 ### Implementation and facilitation guide
 As a key component of the Student SOC Toolkit, the facilitation guide offers detailed support for launching and managing a student Security Operations Center. It provides a roadmap for facilitators, covering critical planning strategies, best practices for implementation, and facilitation tips for the _Student SOC program foundations training_ course. Whether starting a new program or enhancing an existing one, this guide ensures facilitators are equipped with the tools to help students gain real-world cybersecurity skills and engage with operational security challenges effectively.
 
-[Download facilitation guide](source/files/SOC-Students-Implementation-Guide_1July2025.pdf){: .button}
+[Download facilitation guide](source/files/SOC-Students-Implementation-Guide_05Dec2025.pdf){: .button}
 
 ### SCORM file
 Select the link below to download the course as a SCORM v1.2 Learning object to install and adapt in your own learning management system (LMS).
